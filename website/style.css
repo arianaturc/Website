@@ -1,0 +1,84 @@
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(224, 220, 211);
+    border-radius: 10px;
+}
+
+/* Header image */
+.header-image {
+    width: 17%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px; 
+    height: auto;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    border-radius: 0; 
+}
+
+
+button img {
+    width: 50px;
+    height: auto;
+    display: block;
+}
+
+/* Taskbar styles */
+.taskbar {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: auto;
+    background-color: #831515;
+    color: #831515;
+    padding: 20px;
+    border-radius: 0 5px 5px 0; /* Rounded right edge */
+    
+}
+
+.taskbar ul {
+    list-style-type: none;
+    padding: 5;
+}
+
+.taskbar li {
+    padding: 10px 0;
+    border-bottom: 1px solid #555;
+  
+}
+
+.taskbar li:hover {
+    background-color: #555;
+    color: rgb(224, 220, 211);
+    cursor: pointer;
+}
+
+.restaurant-photo {
+    display: block;             
+    margin-left: auto;        
+    margin-right: auto;        
+    width: 80%;            
+    height: auto;  
+    border-radius: 5px; 
+    margin-top: 20px;
+}
+
+#contact-info {
+    margin-top: 20px;
+    background-color: rgb(224, 220, 211); /* Background color */
+    border: 50px solid #831515; /* Border color */
+    padding: 5px;
+    color: #555; /* Text color for visibility */
+    text-align: center; /* Center the text */
+}
